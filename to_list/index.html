@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets\CSS\styles.css">
+    <title>To do List</title>
+</head>
+<body>
+    <header>
+        <h1>To do List</h1>
+            <p>Organize suas pendências, defina prioridades e acompanhe seu progresso de forma simples e prática. </p>
+    </header>
+
+    <main>
+        <section>
+            <form id="task_form">
+                <input type="text" id="task_input" placeholder="Digite uma tarefa" required>
+                <button type="submit">Adicionar</button>
+            </form>
+        </section>
+
+        <section id="section_list">
+            <ul id="task_list" class="task_list"></ul>
+            <button id="reset_button" type="button">Limpar</button>
+        </section>
+    </main>
+
+
+
+    <script src="assets\js\scripts.js"></script>
+</body>
+</html>
